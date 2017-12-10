@@ -1,0 +1,28 @@
+{
+  "name": "gulp-xslt",
+  "version": "1.0.0",
+  "description": "Generating SFCC form definition XMLs from XSLT templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sfcc-forms-gulp-xslt"
+  },
+  "keywords": [
+    "sfcc",
+    "forms",
+    "gulp",
+    "xslt"
+  ],
+  "author": "anton.evstigneev@osf-commerce.com",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "filehound": "^1.16.2",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-xslt2": "^1.0.3"
+  }
+}
