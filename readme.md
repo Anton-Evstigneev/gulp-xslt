@@ -36,7 +36,8 @@ XSLT is production-tested with years and by far is the most elaborate technology
 The basic idea is to add "src" directory to "cartridge/forms" with a sub-directories for each locale.
 Also create a "components" dir inside "src" for common/reusable templates Then perform an XSLT transformation on files from each "src/some_locale" source templates every time something changes.
 
-**PROS**: flexibility, independence from SFCC implementation.
+**PROS**: flexibility, independence from SFCC implementation. Another huge benefit is error reporting: if you made a syntax mistake in form definition
+ you'll get absolutely no error logs from SFSS(correct me if I'm wrong, good IDE should show errors though), your instance will just "magically" stop working, while using this tool you'll get good, descriptive error messages on the build step.
 
 **CONS**: XSLT overhead.
 
